@@ -1,11 +1,11 @@
 package com.gnb.gnbpetclinic.services.map;
 
 import com.gnb.gnbpetclinic.model.Vet;
-import com.gnb.gnbpetclinic.services.CrudService;
+import com.gnb.gnbpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet,Long> implements CrudService<Vet,Long> {
+public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService{
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
